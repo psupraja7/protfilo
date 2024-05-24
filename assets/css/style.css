@@ -331,9 +331,13 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+ .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  
+} 
+.main-image{
+  border-radius: 10px;
+  
 }
 
 .info-content .name {
@@ -1880,3 +1884,4 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
